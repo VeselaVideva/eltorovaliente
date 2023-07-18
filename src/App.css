@@ -1,0 +1,16 @@
+.pedigree-name {
+    position: absolute;
+    z-index: 12;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 .5rem;
+}
+
+.timeline-left-column {
+    margin-right: calc(-1.5rem - 1px);
+}
+
+.timeline-right-column {
+    margin-left: calc(-1.5rem - 1px);
+}
