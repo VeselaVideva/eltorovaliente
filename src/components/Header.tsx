@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import {createStyles, Header, Group, Container, Burger, rem, Text} from '@mantine/core';
+import { createStyles, Header, Group, Container, Burger, rem, Text } from '@mantine/core';
 import { useDisclosure } from '@mantine/hooks';
 import { ThemeToggle } from "./ThemeSwitch";
 
@@ -16,7 +16,7 @@ const useStyles = createStyles((theme) => ({
     },
 
     links: {
-        width: rem(260),
+        width: rem(290),
 
         [theme.fn.smallerThan('sm')]: {
             display: 'none',
@@ -24,7 +24,7 @@ const useStyles = createStyles((theme) => ({
     },
 
     social: {
-        width: rem(260),
+        width: rem(290),
 
         [theme.fn.smallerThan('sm')]: {
             width: 'auto',
@@ -87,7 +87,7 @@ export function HeaderMiddle({ links }: HeaderMiddleProps) {
                 goToAnchor(link.link);
             }}
         >
-            {link.label}
+            { link.label }
         </a>
     ));
 
@@ -96,7 +96,7 @@ export function HeaderMiddle({ links }: HeaderMiddleProps) {
             <Container className={classes.inner} size="xl">
                 <Burger opened={opened} onClick={toggle} size="sm" className={classes.burger} />
                 <Group className={classes.links} spacing={5}>
-                    {items}
+                    { items }
                 </Group>
                 <Text fz="xl" align="center" className="logo-title">
                     EL TORO VALIENTE
