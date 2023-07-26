@@ -1,3 +1,5 @@
+// Flag images from: https://flagdownload.com/
+
 export const titlesData = [
     {
         flag: '/images/serbia.png',
