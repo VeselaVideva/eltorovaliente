@@ -1,5 +1,5 @@
-import { useState } from 'react';
-import { createStyles, Header, Group, Container, Burger, rem } from '@mantine/core';
+import React, { useState } from 'react';
+import {createStyles, Header, Group, Container, Burger, rem, Text} from '@mantine/core';
 import { useDisclosure } from '@mantine/hooks';
 import { ThemeToggle } from "./ThemeSwitch";
 
@@ -72,6 +72,10 @@ export function HeaderMiddle({ links }: HeaderMiddleProps) {
     const [active, setActive] = useState('');
     const { classes, cx } = useStyles();
 
+    const goToAnchor = (link: string) => {
+        window.location.href = link;
+    };
+
     const items = links.map((link) => (
         <a
             key={link.label}
@@ -80,6 +84,7 @@ export function HeaderMiddle({ links }: HeaderMiddleProps) {
             onClick={(event) => {
                 event.preventDefault();
                 setActive(link.link);
+                goToAnchor(link.link);
             }}
         >
             {link.label}
@@ -88,12 +93,14 @@ export function HeaderMiddle({ links }: HeaderMiddleProps) {
 
     return (
         <Header height={56} mb={120}>
-            <Container className={classes.inner}>
+            <Container className={classes.inner} size="xl">
                 <Burger opened={opened} onClick={toggle} size="sm" className={classes.burger} />
                 <Group className={classes.links} spacing={5}>
                     {items}
                 </Group>
-                <p>EL TORO VALIENTE</p>
+                <Text fz="xl" align="center" className="logo-title">
+                    EL TORO VALIENTE
+                </Text>
                 <Group spacing={0} className={classes.social} position="right" noWrap>
                     <ThemeToggle />
                 </Group>
