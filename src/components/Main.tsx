@@ -1,8 +1,9 @@
 import React from "react";
 import { HeroSlider } from "./HeroSlider";
 import { Pedigree } from "./Pedigree";
-import { Shows } from "./Shows";
 import { Health } from "./Health.";
+import { Shows } from "./Shows";
+import { Titles } from "./Titles";
 import { SectionDivider } from "./SectionDivider";
 
 export function Main() {
@@ -12,9 +13,11 @@ export function Main() {
             <SectionDivider/>
             <Pedigree/>
             <SectionDivider/>
+            <Health/>
+            <SectionDivider/>
             <Shows/>
             <SectionDivider/>
-            <Health/>
+            <Titles/>
         </>
     );
 }

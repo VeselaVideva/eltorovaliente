@@ -1,4 +1,4 @@
-import { IconPaw, IconDna, IconDental, IconReportMedical, IconBone, IconEyeCheck, IconPalette } from '@tabler/icons-react';
+import { IconPaw, IconDna, IconDental, IconReportMedical, IconBone, IconEyeCheck, IconPalette, IconHeartbeat } from '@tabler/icons-react';
 
 export const healthData = [
     {
@@ -12,6 +12,12 @@ export const healthData = [
         title: 'Dentition',
         description:
             ['Full dentition with all adult teeth fully erupted.', 'Correct scissor bite.', 'OFA: STA-DE49/25M-VPI'],
+    },
+    {
+        icon: IconReportMedical,
+        title: 'Autoimmune Thyroiditis',
+        description:
+            ['Result: ...', 'OFA: ...'],
     },
     {
         icon: IconBone,
@@ -38,16 +44,16 @@ export const healthData = [
             ['Result: - / -', 'OFA: ...'],
     },
     {
+        icon: IconHeartbeat,
+        title: 'Congenital Heart Disease',
+        description:
+            ['Result: - / -', 'OFA: ...'],
+    },
+    {
         icon: IconReportMedical,
         title: 'Neuronal Ceroid Lipofuscinosis - NCL-A',
         description:
             ['Autosomal recessive', 'Result: NCL-A Carrier', 'OFA: STA-NCL789/13M-PI-CAR'],
-    },
-    {
-        icon: IconReportMedical,
-        title: 'Juvenile Laryngeal Paralysis and Polyneuropathy - ALPP',
-        description:
-            ['Autosomal recessive', 'Result: ...', 'OFA: ...'],
     },
     {
         icon: IconReportMedical,
@@ -60,6 +66,12 @@ export const healthData = [
         title: 'Degenerative Myelopathy - DM',
         description:
             ['Autosomal recessive.', 'Result: ...', 'OFA: ...'],
+    },
+    {
+        icon: IconReportMedical,
+        title: 'Juvenile Laryngeal Paralysis and Polyneuropathy - ALPP',
+        description:
+            ['Autosomal recessive', 'Result: ...', 'OFA: ...'],
     },
     {
         icon: IconReportMedical,
