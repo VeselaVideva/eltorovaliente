@@ -1,12 +1,20 @@
 import React from "react";
-import { PedigreeGrid } from "./PedigreeGrid";
-import { ShowsTimeline } from "./ShowsTimeline";
+import { HeroSlider } from "./HeroSlider";
+import { Pedigree } from "./Pedigree";
+import { Shows } from "./Shows";
+import { Health } from "./Health.";
+import { SectionDivider } from "./SectionDivider";
 
 export function Main() {
     return (
         <>
-            <PedigreeGrid/>
-            <ShowsTimeline/>
+            <HeroSlider/>
+            <SectionDivider/>
+            <Pedigree/>
+            <SectionDivider/>
+            <Shows/>
+            <SectionDivider/>
+            <Health/>
         </>
     );
 }
