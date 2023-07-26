@@ -13,8 +13,9 @@ function App() {
             </Text>
             <HeaderMiddle links={[
                 { link: '#pedigree', label: 'Pedigree' },
+                { link: '#health', label: 'Health' },
                 { link: '#shows', label: 'Shows' },
-                { link: '#health', label: 'Health' }
+                { link: '#titles', label: 'Titles' },
             ]}/>
             <Main/>
             <Footer/>
