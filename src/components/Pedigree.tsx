@@ -1,4 +1,5 @@
-import { SimpleGrid, Skeleton, Container, Stack, useMantineTheme, px, Text, createStyles } from '@mantine/core';
+import React from "react";
+import { SimpleGrid, Skeleton, Container, Stack, useMantineTheme, px, Text, createStyles, Space, Anchor } from '@mantine/core';
 
 const useStyles = createStyles((theme) => ({
     skeleton: {
@@ -11,12 +12,18 @@ const useStyles = createStyles((theme) => ({
 const BASE_HEIGHT = 1008;
 const getSubHeight = (children: number, spacing: number) => BASE_HEIGHT / children - spacing * ((children - 1) / children);
 
-export function PedigreeGrid() {
+export function Pedigree() {
     const theme = useMantineTheme();
     const { classes } = useStyles();
 
     return (
-        <Container my="md">
+        <Container size="xl">
+            <Text id="pedigree" fz="xl" align="center" className="section-title">
+                Pedigree
+                <Anchor href="#pedigree" aria-hidden="true"></Anchor>
+            </Text>
+            <Space h="xl" />
+            <Space h="xl" />
             <SimpleGrid cols={4} breakpoints={[{ maxWidth: 'xs', cols: 1 }]}>
                 <Stack>
                     <Skeleton className={classes.skeleton} height={getSubHeight(2, px(theme.spacing.md))} radius="md"
