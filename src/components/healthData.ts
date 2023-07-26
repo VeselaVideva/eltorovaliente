@@ -33,7 +33,7 @@ export const healthData = [
     },
     {
         icon: IconBone,
-        title: 'Patellar Luxation',
+        title: 'Patellar Luxation - PL',
         description:
             ['Result: - / -', 'OFA: ...'],
     },
