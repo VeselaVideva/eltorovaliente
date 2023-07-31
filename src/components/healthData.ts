@@ -3,134 +3,156 @@ import { IconPaw, IconDna, IconDental, IconReportMedical, IconBone, IconEyeCheck
 export const healthData = [
     {
         icon: IconDna,
+        color: 'green',
         title: 'Dog Genetic Identification',
         description:
-            ['DNA profile ISAG 2006 - Antagene', 'OFA: ...'],
+            ['DNA ISAG 2006 - Antagene: 759218'],
     },
     {
         icon: IconDental,
+        color: 'green',
         title: 'Dentition',
         description:
-            ['Full dentition with all adult teeth fully erupted.', 'Correct scissor bite.', 'OFA: STA-DE49/25M-VPI'],
+            ['Full dentition with correct scissor bite.', 'OFA: STA-DE49/25M-VPI'],
     },
     {
         icon: IconReportMedical,
+        color: 'gray',
         title: 'Autoimmune Thyroiditis',
         description:
             ['Result: ...', 'OFA: ...'],
     },
     {
         icon: IconBone,
+        color: 'gray',
         title: 'Hip Dysplasia - HD',
         description:
             ['Result: ...', 'OFA: ...'],
     },
     {
         icon: IconBone,
+        color: 'gray',
         title: 'Elbow Dysplasia - ED',
         description:
             ['Result: ...', 'OFA: ...'],
     },
     {
         icon: IconBone,
+        color: 'green',
         title: 'Osteochondritis Dissecans - OCD',
         description:
-            ['Result: OCD Free', 'OFA: ...'],
+            ['OCD Free', 'OFA: ...'],
     },
     {
         icon: IconBone,
+        color: 'green',
         title: 'Patellar Luxation - PL',
         description:
-            ['Result: - / -', 'OFA: ...'],
+            ['PL N/N', 'OFA: ...'],
     },
     {
         icon: IconHeartbeat,
+        color: 'gray',
         title: 'Congenital Heart Disease',
         description:
-            ['Result: - / -', 'OFA: ...'],
+            ['Result: ...', 'OFA: ...'],
     },
     {
         icon: IconReportMedical,
+        color: 'orange',
         title: 'Neuronal Ceroid Lipofuscinosis - NCL-A',
         description:
-            ['Autosomal recessive', 'Result: NCL-A Carrier', 'OFA: STA-NCL789/13M-PI-CAR'],
+            ['Autosomal recessive', 'NCL-A Carrier', 'OFA: STA-NCL789/13M-PI-CAR'],
     },
     {
         icon: IconReportMedical,
+        color: 'green',
         title: 'Hyperuricosuria - HUU',
         description:
-            ['Autosomal recessive.', 'Result: HUU Clear', 'OFA: STA-HU52/13M-PI'],
+            ['Autosomal recessive.', 'HUU Clear', 'OFA: STA-HU52/13M-PI'],
     },
     {
         icon: IconReportMedical,
+        color: 'green',
         title: 'Degenerative Myelopathy - DM',
         description:
-            ['Autosomal recessive.', 'Result: ...', 'OFA: ...'],
+            ['Autosomal recessive.', 'DM Clear', 'OFA: ...'],
     },
     {
         icon: IconReportMedical,
-        title: 'Juvenile Laryngeal Paralysis and Polyneuropathy - ALPP',
+        color: 'green',
+        title: 'Juvenile Laryngeal Paralysis + Polyneuropathy - ALPP',
         description:
-            ['Autosomal recessive', 'Result: ...', 'OFA: ...'],
+            ['Autosomal recessive', 'ALPP Clear', 'OFA: ...'],
     },
     {
         icon: IconReportMedical,
+        color: 'green',
         title: 'Craniomandibular Osteopathy',
         description:
-            ['Autosomal dominant with incomplete penetrance', 'Result: ...', 'OFA: ...'],
+            ['Autosomal dominant with incomplete penetrance', 'CO Clear', 'OFA: ...'],
     },
     {
         icon: IconEyeCheck,
-        title: 'Progressive Retinal Atrophy - PRA-crd1 / PRA-crd2 / PRA-prcd',
+        color: 'green',
+        title: 'Progressive Retinal Atrophy',
         description:
-            ['Autosomal recessive', 'Result: ...'],
+            ['Autosomal recessive', 'PRA-crd1 Clear, PRA-crd2 Clear, PRA-prcd Clear', 'OFA: ...'],
     },
     {
         icon: IconReportMedical,
+        color: 'green',
         title: 'Multidrug Sensitivity - MDR1',
         description:
-            ['Autosomal codominant.', 'Abnormal function of a blood-brain barrier protein resulting in neurotoxicity due to admission of some drugs.', 'Result: ...'],
+            ['Autosomal codominant.', 'MDR1 Clear', 'OFA: ...'],
     },
     {
         icon: IconPalette,
+        color: '',
         title: 'A Locus - Agouti',
         description:
-            ['Autosomal recessive', 'Result: ...'],
+            ['Autosomal recessive', 'aʷ/aʷ, Aʸ/Aʸ'],
     },
     {
         icon: IconPalette,
+        color: '',
         title: 'B Locus - Brown',
         description:
-            ['Autosomal recessive', 'Result: ...'],
+            ['Autosomal recessive', 'B/B - non-carrier of brown'],
     },
     {
         icon: IconPalette,
+        color: '',
         title: 'D Locus - Dilution',
         description:
-            ['Autosomal recessive', 'Result: ...'],
+            ['Autosomal recessive', 'D/d - carrier of dillution'],
     },
     {
         icon: IconPalette,
+        color: '',
         title: 'E Locus - Extension',
         description:
-            ['Autosomal recessive', 'Result: ...'],
+            ['Autosomal recessive', 'Eᵐ/E - melanistic mask'],
     },
     {
         icon: IconPalette,
+        color: '',
         title: 'K Locus - Dominant Black',
         description:
-            ['Autosomal dominant', 'Result: ...'],
+            ['Autosomal dominant', 'kʸ/kʸ - not expressed'],
     },
     {
         icon: IconPaw,
+        color: '',
         title: 'Polydactyly',
         description:
-            ['Autosomal dominant', 'Result: ...'],
+            ['Autosomal dominant', 'Non-carrier of polydactyly'],
     },
     {
         icon: IconPaw,
+        color: '',
         title: 'Shedding - MC5R',
         description:
-            ['Autosomal codominant', 'Result: ...'],
+            ['Autosomal codominant', 'Low shedding'],
     },
 ];
