@@ -5,12 +5,13 @@ interface TitleCardProps {
     flag: string;
     title: string;
     number: string;
+    finished: boolean;
 }
 
-export function TitleCard({ flag, title, number }: TitleCardProps) {
+export function TitleCard({ flag, title, number, finished }: TitleCardProps) {
     return (
         <Group noWrap>
-            <ThemeIcon variant="light" size={80} radius={80}>
+            <ThemeIcon variant="light" size={60} radius={60} opacity={finished ? 1 : .35}>
                 <Image src={flag}/>
             </ThemeIcon>
             <div>
