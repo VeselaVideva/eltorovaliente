@@ -1,8 +1,8 @@
 import React from 'react';
 import './App.css';
-import { HeaderMiddle } from "./components/Header";
-import { Footer } from "./components/Footer";
-import { Main } from "./components/Main";
+import { HeaderMiddle } from "./components/Layout/Header";
+import { Footer } from "./components/Layout/Footer";
+import { Main } from "./components/Layout/Main";
 import { Anchor, Text } from "@mantine/core";
 
 function App() {

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { createStyles, Header, Group, Container, Burger, rem, Text } from '@mantine/core';
 import { useDisclosure } from '@mantine/hooks';
-import { ThemeToggle } from "./ThemeSwitch";
+import { ThemeToggle } from "./utils/ThemeSwitch";
 
 const useStyles = createStyles((theme) => ({
     inner: {

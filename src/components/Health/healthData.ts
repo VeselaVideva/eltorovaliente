@@ -6,7 +6,7 @@ export const healthData = [
         color: 'green',
         title: 'Dog Genetic Identification',
         description:
-            ['DNA ISAG 2006 - Antagene: 759218'],
+            ['DNA ISAG 2006', 'Antagene: 759 218'],
     },
     {
         icon: IconDental,
@@ -20,42 +20,42 @@ export const healthData = [
         color: 'gray',
         title: 'Autoimmune Thyroiditis',
         description:
-            ['Result: ...', 'OFA: ...'],
+            ['Result: pending testing...', 'OFA: pending registration...'],
     },
     {
         icon: IconBone,
         color: 'gray',
         title: 'Hip Dysplasia - HD',
         description:
-            ['Result: ...', 'OFA: ...'],
+            ['Result: pending testing...', 'OFA: pending registration...'],
     },
     {
         icon: IconBone,
         color: 'gray',
         title: 'Elbow Dysplasia - ED',
         description:
-            ['Result: ...', 'OFA: ...'],
+            ['Result: pending testing...', 'OFA: pending registration...'],
     },
     {
         icon: IconBone,
         color: 'green',
         title: 'Osteochondritis Dissecans - OCD',
         description:
-            ['OCD Free', 'OFA: ...'],
+            ['OCD Free', 'OFA: pending registration...'],
     },
     {
         icon: IconBone,
         color: 'green',
         title: 'Patellar Luxation - PL',
         description:
-            ['PL N/N', 'OFA: ...'],
+            ['PL N/N', 'OFA: pending registration...'],
     },
     {
         icon: IconHeartbeat,
         color: 'gray',
         title: 'Congenital Heart Disease',
         description:
-            ['Result: ...', 'OFA: ...'],
+            ['Result: pending testing...', 'OFA: pending registration...'],
     },
     {
         icon: IconReportMedical,
@@ -76,56 +76,56 @@ export const healthData = [
         color: 'green',
         title: 'Degenerative Myelopathy - DM',
         description:
-            ['Autosomal recessive.', 'DM Clear', 'OFA: ...'],
+            ['Autosomal recessive.', 'DM Clear', 'OFA: pending registration...'],
     },
     {
         icon: IconReportMedical,
         color: 'green',
         title: 'Juvenile Laryngeal Paralysis + Polyneuropathy - ALPP',
         description:
-            ['Autosomal recessive', 'ALPP Clear', 'OFA: ...'],
+            ['Autosomal recessive', 'ALPP Clear', 'OFA: pending registration...'],
     },
     {
         icon: IconReportMedical,
         color: 'green',
         title: 'Craniomandibular Osteopathy',
         description:
-            ['Autosomal dominant with incomplete penetrance', 'CO Clear', 'OFA: ...'],
+            ['Autosomal dominant with incomplete penetrance', 'CO Clear', 'OFA: pending registration...'],
     },
     {
         icon: IconEyeCheck,
         color: 'green',
         title: 'Progressive Retinal Atrophy',
         description:
-            ['Autosomal recessive', 'PRA-crd1 Clear, PRA-crd2 Clear, PRA-prcd Clear', 'OFA: ...'],
+            ['Autosomal recessive', 'PRA-crd1 Clear, PRA-crd2 Clear, PRA-prcd Clear', 'OFA: pending registration...'],
     },
     {
         icon: IconReportMedical,
         color: 'green',
         title: 'Multidrug Sensitivity - MDR1',
         description:
-            ['Autosomal codominant.', 'MDR1 Clear', 'OFA: ...'],
+            ['Autosomal codominant.', 'MDR1 Clear', 'OFA: pending registration...'],
     },
     {
         icon: IconPalette,
         color: '',
         title: 'A Locus - Agouti',
         description:
-            ['Autosomal recessive', 'aʷ/aʷ, Aʸ/Aʸ'],
+            ['Autosomal recessive', 'aʷ/aʷ, Aʸ/Aʸ - non-carrier of tricolor'],
     },
     {
         icon: IconPalette,
         color: '',
         title: 'B Locus - Brown',
         description:
-            ['Autosomal recessive', 'B/B - non-carrier of brown'],
+            ['Autosomal recessive', 'B/B - non-carrier of brown pigmentation'],
     },
     {
         icon: IconPalette,
         color: '',
         title: 'D Locus - Dilution',
         description:
-            ['Autosomal recessive', 'D/d - carrier of dillution'],
+            ['Autosomal recessive', 'D/d - carrier of dilution'],
     },
     {
         icon: IconPalette,
@@ -144,15 +144,15 @@ export const healthData = [
     {
         icon: IconPaw,
         color: '',
-        title: 'Polydactyly',
-        description:
-            ['Autosomal dominant', 'Non-carrier of polydactyly'],
-    },
-    {
-        icon: IconPaw,
-        color: '',
         title: 'Shedding - MC5R',
         description:
             ['Autosomal codominant', 'Low shedding'],
     },
+    // {
+    //     icon: IconPaw,
+    //     color: '',
+    //     title: 'Polydactyly',
+    //     description:
+    //         ['Autosomal dominant', 'Non-carrier of polydactyly'],
+    // },
 ];

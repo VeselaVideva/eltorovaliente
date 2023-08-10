@@ -1,5 +1,5 @@
 import React from "react";
-import {Timeline, Text, Container, Grid, Space, Anchor, SimpleGrid, ThemeIcon} from '@mantine/core';
+import { Timeline, Text, Container, Space, Anchor, SimpleGrid, ThemeIcon } from '@mantine/core';
 import { IconTrophy } from '@tabler/icons-react';
 
 export function Shows() {
@@ -97,6 +97,9 @@ export function Shows() {
                         <Text color="dimmed" size="md">Excellent 1, JCAC, JBOB, BIS Junior 3</Text>
                         <Text color="dimmed" size="md">Judge: Milivoje Urosevic (Serbia)</Text>
                     </Timeline.Item>
+                </Timeline>
+
+                <Timeline active={-1} bulletSize={36} lineWidth={1} align="left">
                     <Timeline.Item
                         bullet={<ThemeIcon variant="light" size={40} radius={40}><IconTrophy size="1.3rem" stroke={1}/></ThemeIcon>}
                         title="CACIB - Thessaloniki, GREECE">
@@ -118,9 +121,6 @@ export function Shows() {
                         <Text color="dimmed" size="md">Excellent 1, JCAC, JBOB, BOS</Text>
                         <Text color="dimmed" size="md">Judge: Suncica Lazic (Serbia)</Text>
                     </Timeline.Item>
-                </Timeline>
-
-                <Timeline active={-1} bulletSize={36} lineWidth={1} align="left">
                     <Timeline.Item
                         bullet={<ThemeIcon variant="light" size={40} radius={40}><IconTrophy size="1.3rem" stroke={1}/></ThemeIcon>}
                         title="CAC – Ploiesti, ROMANIA">
@@ -156,9 +156,6 @@ export function Shows() {
                         <Text color="dimmed" size="md">Excellent 1, CW, BOB, BOG 3</Text>
                         <Text color="dimmed" size="md">Judge: Zlatko Jojkic (Serbia)</Text>
                     </Timeline.Item>
-                </Timeline>
-
-                <Timeline active={-1} bulletSize={36} lineWidth={1} align="left">
                     <Timeline.Item
                         bullet={<ThemeIcon variant="light" size={40} radius={40}><IconTrophy size="1.3rem" stroke={1}/></ThemeIcon>}
                         title="Amstaff Major 14th – Andrevlje, SERBIA">
@@ -187,6 +184,9 @@ export function Shows() {
                         <Text color="dimmed" size="md">Excellent 4</Text>
                         <Text color="dimmed" size="md">Judge: Piergiorgio Lievore (Italy)</Text>
                     </Timeline.Item>
+                </Timeline>
+
+                <Timeline active={-1} bulletSize={36} lineWidth={1} align="left">
                     <Timeline.Item
                         bullet={<ThemeIcon variant="light" size={40} radius={40}><IconTrophy size="1.3rem" stroke={1}/></ThemeIcon>}
                         title="10-breed EDS – Budapest, HUNGARY">
@@ -236,34 +236,27 @@ export function Shows() {
                         <Text color="dimmed" size="md">Excellent 2, R.CAC, R.CACIB</Text>
                         <Text color="dimmed" size="md">Judge: Marija Radovanović (Serbia)</Text>
                     </Timeline.Item>
-                    <Timeline.Item
-                        bullet={<ThemeIcon variant="light" size={40} radius={40}><IconTrophy size="1.3rem" stroke={1}/></ThemeIcon>}
-                        title="CACIB – Ohrid, NORTH MACEDONIA">
-                        <Text color="dimmed" size="md">31.08.2023 - Champion class</Text>
-                        <Text color="dimmed" size="md">...</Text>
-                        <Text color="dimmed" size="md">Judge: ... (...)</Text>
-                    </Timeline.Item>
-                    <Timeline.Item
-                        bullet={<ThemeIcon variant="light" size={40} radius={40}><IconTrophy size="1.3rem" stroke={1}/></ThemeIcon>}
-                        title="CACIB – Ohrid, NORTH MACEDONIA">
-                        <Text color="dimmed" size="md">01.09.2023 - Champion class</Text>
-                        <Text color="dimmed" size="md">...</Text>
-                        <Text color="dimmed" size="md">Judge: ... (...)</Text>
-                    </Timeline.Item>
-                    <Timeline.Item
-                        bullet={<ThemeIcon variant="light" size={40} radius={40}><IconTrophy size="1.3rem" stroke={1}/></ThemeIcon>}
-                        title="CACIB – Chalkidiki, GREECE">
-                        <Text color="dimmed" size="md">09.09.2023 - ... class</Text>
-                        <Text color="dimmed" size="md">...</Text>
-                        <Text color="dimmed" size="md">Judge: ... (...)</Text>
-                    </Timeline.Item>
-                    <Timeline.Item
-                        bullet={<ThemeIcon variant="light" size={40} radius={40}><IconTrophy size="1.3rem" stroke={1}/></ThemeIcon>}
-                        title="CACIB – Chalkidiki, GREECE">
-                        <Text color="dimmed" size="md">10.09.2023 - ... class</Text>
-                        <Text color="dimmed" size="md">...</Text>
-                        <Text color="dimmed" size="md">Judge: ... (...)</Text>
-                    </Timeline.Item>
+                    {/*<Timeline.Item*/}
+                    {/*    bullet={<ThemeIcon variant="light" size={40} radius={40}><IconTrophy size="1.3rem" stroke={1}/></ThemeIcon>}*/}
+                    {/*    title="CACIB – Ohrid, NORTH MACEDONIA">*/}
+                    {/*    <Text color="dimmed" size="md">31.08.2023 - Champion class</Text>*/}
+                    {/*    <Text color="dimmed" size="md">...</Text>*/}
+                    {/*    <Text color="dimmed" size="md">Judge: ... (...)</Text>*/}
+                    {/*</Timeline.Item>*/}
+                    {/*<Timeline.Item*/}
+                    {/*    bullet={<ThemeIcon variant="light" size={40} radius={40}><IconTrophy size="1.3rem" stroke={1}/></ThemeIcon>}*/}
+                    {/*    title="CACIB – Ohrid, NORTH MACEDONIA">*/}
+                    {/*    <Text color="dimmed" size="md">01.09.2023 - Champion class</Text>*/}
+                    {/*    <Text color="dimmed" size="md">...</Text>*/}
+                    {/*    <Text color="dimmed" size="md">Judge: ... (...)</Text>*/}
+                    {/*</Timeline.Item>*/}
+                    {/*<Timeline.Item*/}
+                    {/*    bullet={<ThemeIcon variant="light" size={40} radius={40}><IconTrophy size="1.3rem" stroke={1}/></ThemeIcon>}*/}
+                    {/*    title="CACIB – ..., ...">*/}
+                    {/*    <Text color="dimmed" size="md">09.09.2023 - ... class</Text>*/}
+                    {/*    <Text color="dimmed" size="md">...</Text>*/}
+                    {/*    <Text color="dimmed" size="md">Judge: ... (...)</Text>*/}
+                    {/*</Timeline.Item>*/}
                 </Timeline>
             </SimpleGrid>
         </Container>

@@ -1,3 +1,4 @@
+import React from 'react';
 import { MantineProvider, ColorSchemeProvider, ColorScheme } from '@mantine/core';
 import { useLocalStorage } from '@mantine/hooks';
 import App from "../App";
