@@ -1,7 +1,7 @@
 {
   "name": "eltorovaliente",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@mantine/carousel": "^6.0.17",
     "@mantine/core": "^6.0.16",
