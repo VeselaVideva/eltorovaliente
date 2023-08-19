@@ -253,9 +253,16 @@ export function Shows() {
                     {/*<Timeline.Item*/}
                     {/*    bullet={<ThemeIcon variant="light" size={40} radius={40}><IconTrophy size="1.3rem" stroke={1}/></ThemeIcon>}*/}
                     {/*    title="CACIB – ..., ...">*/}
-                    {/*    <Text color="dimmed" size="md">09.09.2023 - ... class</Text>*/}
+                    {/*    <Text color="dimmed" size="md">09.09.2023 - Champion class</Text>*/}
                     {/*    <Text color="dimmed" size="md">...</Text>*/}
                     {/*    <Text color="dimmed" size="md">Judge: ... (...)</Text>*/}
+                    {/*</Timeline.Item>*/}
+                    {/*<Timeline.Item*/}
+                    {/*    bullet={<ThemeIcon variant="light" size={40} radius={40}><IconTrophy size="1.3rem" stroke={1}/></ThemeIcon>}*/}
+                    {/*    title="NDS – Plovdiv, BULGARIA">*/}
+                    {/*    <Text color="dimmed" size="md">23.09.2023 - Champion class</Text>*/}
+                    {/*    <Text color="dimmed" size="md">...</Text>*/}
+                    {/*    <Text color="dimmed" size="md">Judge: ... (Serbia)</Text>*/}
                     {/*</Timeline.Item>*/}
                 </Timeline>
             </SimpleGrid>
