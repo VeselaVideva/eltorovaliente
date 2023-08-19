@@ -41,7 +41,7 @@ export const healthData = [
         color: 'green',
         title: 'Osteochondritis Dissecans - OCD',
         description:
-            ['OCD Free', 'OFA: pending registration...'],
+            ['OCD Shoulder Free', 'OFA: pending registration...'],
     },
     {
         icon: IconBone,
