@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/petsjd8z/eltorovaliente.com/
-    - /bin/cp -r build $DEPLOYPATH
+    - export DEPLOYPATH=/home/petsjd8z/eltorovaliente.com/build/
+    - /bin/cp -r * $DEPLOYPATH
