@@ -13,9 +13,9 @@ Personal website of [KARBALLIDO STAFFS EL TORO VALIENTE](https://www.pedigreedat
 - typescript 4.9.5
 - @mantine/core 6.0.16
 - @mantine/hooks 6.0.16
-- @mantine/carousel 6.0.17
+- @mantine/carousel 6.0.19
 - @tabler/icons-react 2.26.0
-- embla-carousel-react 8.0.0-rc11
+- embla-carousel-react 7.1.0
 - hosting - [https://superhosting.bg/](https://superhosting.bg/)
 
 
