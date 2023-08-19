@@ -2,7 +2,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/petsjd8z/eltorovaliente.com/
-    - /bin/cp index.html $DEPLOYPATH
-    - /bin/cp favicon.ico $DEPLOYPATH
-    - /bin/cp -r images $DEPLOYPATH
-    - /bin/cp -r static $DEPLOYPATH
+    - /bin/cp -r build $DEPLOYPATH
