@@ -236,33 +236,33 @@ export function Shows() {
                         <Text color="dimmed" size="md">Excellent 2, R.CAC, R.CACIB</Text>
                         <Text color="dimmed" size="md">Judge: Marija Radovanović (Serbia)</Text>
                     </Timeline.Item>
-                    {/*<Timeline.Item*/}
-                    {/*    bullet={<ThemeIcon variant="light" size={40} radius={40}><IconTrophy size="1.3rem" stroke={1}/></ThemeIcon>}*/}
-                    {/*    title="CACIB – Ohrid, NORTH MACEDONIA">*/}
-                    {/*    <Text color="dimmed" size="md">31.08.2023 - Champion class</Text>*/}
-                    {/*    <Text color="dimmed" size="md">...</Text>*/}
-                    {/*    <Text color="dimmed" size="md">Judge: ... (...)</Text>*/}
-                    {/*</Timeline.Item>*/}
-                    {/*<Timeline.Item*/}
-                    {/*    bullet={<ThemeIcon variant="light" size={40} radius={40}><IconTrophy size="1.3rem" stroke={1}/></ThemeIcon>}*/}
-                    {/*    title="CACIB – Ohrid, NORTH MACEDONIA">*/}
-                    {/*    <Text color="dimmed" size="md">01.09.2023 - Champion class</Text>*/}
-                    {/*    <Text color="dimmed" size="md">...</Text>*/}
-                    {/*    <Text color="dimmed" size="md">Judge: ... (...)</Text>*/}
-                    {/*</Timeline.Item>*/}
+                    <Timeline.Item
+                        bullet={<ThemeIcon variant="light" size={40} radius={40}><IconTrophy size="1.3rem" stroke={1}/></ThemeIcon>}
+                        title="CACIB – Ohrid, NORTH MACEDONIA">
+                        <Text color="dimmed" size="md">31.08.2023 - Champion class</Text>
+                        <Text color="dimmed" size="md">Excellent 1, CAC, R.CACIB</Text>
+                        <Text color="dimmed" size="md">Judge: Janusz Opara (Poland)</Text>
+                    </Timeline.Item>
+                    <Timeline.Item
+                        bullet={<ThemeIcon variant="light" size={40} radius={40}><IconTrophy size="1.3rem" stroke={1}/></ThemeIcon>}
+                        title="CACIB – Ohrid, NORTH MACEDONIA">
+                        <Text color="dimmed" size="md">01.09.2023 - Champion class</Text>
+                        <Text color="dimmed" size="md">Excellent 1, CAC</Text>
+                        <Text color="dimmed" size="md">Judge: Siret Lepasaar (Estonia)</Text>
+                    </Timeline.Item>
+                    <Timeline.Item
+                        bullet={<ThemeIcon variant="light" size={40} radius={40}><IconTrophy size="1.3rem" stroke={1}/></ThemeIcon>}
+                        title="NDS – Plovdiv, BULGARIA">
+                        <Text color="dimmed" size="md">23.09.2023 - Champion class</Text>
+                        <Text color="dimmed" size="md">Excellent 1, CW, BOB, R.BOG</Text>
+                        <Text color="dimmed" size="md">Judge: Dusko Piljevic (Serbia)</Text>
+                    </Timeline.Item>
                     {/*<Timeline.Item*/}
                     {/*    bullet={<ThemeIcon variant="light" size={40} radius={40}><IconTrophy size="1.3rem" stroke={1}/></ThemeIcon>}*/}
                     {/*    title="CACIB – ..., ...">*/}
-                    {/*    <Text color="dimmed" size="md">09.09.2023 - Champion class</Text>*/}
+                    {/*    <Text color="dimmed" size="md">08.10.2023 - Champion class</Text>*/}
                     {/*    <Text color="dimmed" size="md">...</Text>*/}
                     {/*    <Text color="dimmed" size="md">Judge: ... (...)</Text>*/}
-                    {/*</Timeline.Item>*/}
-                    {/*<Timeline.Item*/}
-                    {/*    bullet={<ThemeIcon variant="light" size={40} radius={40}><IconTrophy size="1.3rem" stroke={1}/></ThemeIcon>}*/}
-                    {/*    title="NDS – Plovdiv, BULGARIA">*/}
-                    {/*    <Text color="dimmed" size="md">23.09.2023 - Champion class</Text>*/}
-                    {/*    <Text color="dimmed" size="md">...</Text>*/}
-                    {/*    <Text color="dimmed" size="md">Judge: ... (Serbia)</Text>*/}
                     {/*</Timeline.Item>*/}
                 </Timeline>
             </SimpleGrid>
