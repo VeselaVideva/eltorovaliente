@@ -257,12 +257,26 @@ export function Shows() {
                         <Text color="dimmed" size="md">Excellent 1, CW, BOB, R.BOG</Text>
                         <Text color="dimmed" size="md">Judge: Dusko Piljevic (Serbia)</Text>
                     </Timeline.Item>
+                    <Timeline.Item
+                        bullet={<ThemeIcon variant="light" size={40} radius={40}><IconTrophy size="1.3rem" stroke={1}/></ThemeIcon>}
+                        title="CACIB – Thessaloniki, GREECE">
+                        <Text color="dimmed" size="md">28.10.2023 - Champion class</Text>
+                        <Text color="dimmed" size="md">Excellent 1, CAC, CACIB, BOB, BOG 4</Text>
+                        <Text color="dimmed" size="md">Judge: Tino Pehar (Croatia)</Text>
+                    </Timeline.Item>
+                    <Timeline.Item
+                        bullet={<ThemeIcon variant="light" size={40} radius={40}><IconTrophy size="1.3rem" stroke={1}/></ThemeIcon>}
+                        title="CACIB – Thessaloniki, GREECE">
+                        <Text color="dimmed" size="md">29.10.2023 - Champion class</Text>
+                        <Text color="dimmed" size="md">Excellent 1, R.CAC, R.CACIB</Text>
+                        <Text color="dimmed" size="md">Judge: Angel Garach Domech (Spain)</Text>
+                    </Timeline.Item>
                     {/*<Timeline.Item*/}
                     {/*    bullet={<ThemeIcon variant="light" size={40} radius={40}><IconTrophy size="1.3rem" stroke={1}/></ThemeIcon>}*/}
-                    {/*    title="CACIB – ..., ...">*/}
-                    {/*    <Text color="dimmed" size="md">08.10.2023 - Champion class</Text>*/}
+                    {/*    title="Pannon Cup 2023 – Budapest, HUNGARY">*/}
+                    {/*    <Text color="dimmed" size="md">28.10.2023 - Champion class</Text>*/}
                     {/*    <Text color="dimmed" size="md">...</Text>*/}
-                    {/*    <Text color="dimmed" size="md">Judge: ... (...)</Text>*/}
+                    {/*    <Text color="dimmed" size="md">Judge: Greg Roadhouse (USA)</Text>*/}
                     {/*</Timeline.Item>*/}
                 </Timeline>
             </SimpleGrid>
