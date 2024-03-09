@@ -31,10 +31,10 @@ export const healthData = [
     },
     {
         icon: IconBone,
-        color: 'gray',
+        color: 'green',
         title: 'Elbow Dysplasia - ED',
         description:
-            ['Result: pending testing...', 'OFA: pending registration...'],
+            ['Result: ED 0/0', 'OFA: pending registration...'],
     },
     {
         icon: IconBone,
@@ -52,10 +52,10 @@ export const healthData = [
     },
     {
         icon: IconHeartbeat,
-        color: 'gray',
+        color: 'green',
         title: 'Congenital Heart Disease',
         description:
-            ['Result: pending testing...', 'OFA: pending registration...'],
+            ['Result: Normal', 'OFA: STA-BCA232/35M/P-VPI'],
     },
     {
         icon: IconReportMedical,
@@ -76,35 +76,35 @@ export const healthData = [
         color: 'green',
         title: 'Degenerative Myelopathy - DM',
         description:
-            ['Autosomal recessive.', 'DM Clear', 'OFA: pending registration...'],
+            ['Autosomal recessive.', 'DM Clear', 'OFA: STA-DM111/29M-PI'],
     },
     {
         icon: IconReportMedical,
         color: 'green',
-        title: 'Juvenile Laryngeal Paralysis + Polyneuropathy - ALPP',
+        title: 'Amstaff Juvenile Laryngeal Paralysis / Polyneuropathy',
         description:
-            ['Autosomal recessive', 'ALPP Clear', 'OFA: pending registration...'],
+            ['Autosomal recessive', 'ALPP Clear', 'OFA: STA-ALP18/29M-PI'],
     },
     {
         icon: IconReportMedical,
         color: 'green',
         title: 'Craniomandibular Osteopathy',
         description:
-            ['Autosomal dominant with incomplete penetrance', 'CO Clear', 'OFA: pending registration...'],
+            ['Autosomal dominant with incomplete penetrance', 'CO Clear', 'OFA: STA-CMO1/29M-PI'],
     },
     {
         icon: IconEyeCheck,
         color: 'green',
         title: 'Progressive Retinal Atrophy',
         description:
-            ['Autosomal recessive', 'PRA-crd1 Clear, PRA-crd2 Clear, PRA-prcd Clear', 'OFA: pending registration...'],
+            ['Autosomal recessive', 'PRA-crd1 Clear, PRA-crd2 Clear, PRA-prcd Clear', 'OFA: STA-PRA6/29M-PI'],
     },
     {
         icon: IconReportMedical,
         color: 'green',
         title: 'Multidrug Sensitivity - MDR1',
         description:
-            ['Autosomal codominant.', 'MDR1 Clear', 'OFA: pending registration...'],
+            ['Autosomal codominant.', 'MDR1 Clear', 'OFA: STA-MD1-1/29M-PI-N/N'],
     },
     {
         icon: IconPalette,
