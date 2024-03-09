@@ -13,7 +13,7 @@ export function Shows() {
             <Space h="xl" />
             <Accordion variant="separated">
                 <Accordion.Item value="shows-2021">
-                    <Accordion.Control>Shows 2021</Accordion.Control>
+                    <Accordion.Control><Text fw={500}>Shows 2021</Text></Accordion.Control>
                     <Accordion.Panel>
                         <SimpleGrid cols={3} breakpoints={[{ maxWidth: 'sm', cols: 1 }]}>
                             <Timeline active={-1} bulletSize={40} lineWidth={1} align="left">
@@ -38,7 +38,7 @@ export function Shows() {
                     </Accordion.Panel>
                 </Accordion.Item>
                 <Accordion.Item value="shows-2022">
-                    <Accordion.Control>Shows 2022</Accordion.Control>
+                    <Accordion.Control><Text fw={500}>Shows 2022</Text></Accordion.Control>
                     <Accordion.Panel>
                         <SimpleGrid cols={3} breakpoints={[{ maxWidth: 'sm', cols: 1 }]}>
                             <Timeline active={-1} bulletSize={40} lineWidth={1} align="left">
@@ -177,7 +177,7 @@ export function Shows() {
                     </Accordion.Panel>
                 </Accordion.Item>
                 <Accordion.Item value="shows-2023">
-                    <Accordion.Control>Shows 2023</Accordion.Control>
+                    <Accordion.Control><Text fw={500}>Shows 2023</Text></Accordion.Control>
                     <Accordion.Panel>
                         <SimpleGrid cols={3} breakpoints={[{ maxWidth: 'sm', cols: 1 }]}>
                             <Timeline active={-1} bulletSize={40} lineWidth={1} align="left">
@@ -330,7 +330,7 @@ export function Shows() {
                     </Accordion.Panel>
                 </Accordion.Item>
                 <Accordion.Item value="shows-2024">
-                    <Accordion.Control>Shows 2024</Accordion.Control>
+                    <Accordion.Control><Text fw={500}>Shows 2024</Text></Accordion.Control>
                     <Accordion.Panel>
                         <SimpleGrid cols={3} breakpoints={[{ maxWidth: 'sm', cols: 1 }]}>
                             <Timeline active={-1} bulletSize={40} lineWidth={1} align="left">

@@ -13,14 +13,7 @@ export const healthData = [
         color: 'green',
         title: 'Dentition',
         description:
-            ['Full dentition with correct scissor bite.', 'OFA: STA-DE49/25M-VPI'],
-    },
-    {
-        icon: IconReportMedical,
-        color: 'gray',
-        title: 'Autoimmune Thyroiditis',
-        description:
-            ['Result: pending testing...', 'OFA: pending registration...'],
+            ['Full dentition with correct scissors bite.', 'OFA: STA-DE49/25M-VPI'],
     },
     {
         icon: IconBone,
@@ -56,6 +49,13 @@ export const healthData = [
         title: 'Congenital Heart Disease',
         description:
             ['Result: Normal', 'OFA: STA-BCA232/35M/P-VPI'],
+    },
+    {
+        icon: IconReportMedical,
+        color: 'gray',
+        title: 'Autoimmune Thyroiditis',
+        description:
+            ['Result: pending testing...', 'OFA: pending registration...'],
     },
     {
         icon: IconReportMedical,

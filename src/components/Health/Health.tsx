@@ -14,8 +14,8 @@ export function Health() {
             </Text>
             <SimpleGrid
                 mt={60}
-                cols={3}
-                spacing={50}
+                cols={4}
+                spacing={32}
                 breakpoints={[
                     { maxWidth: 980, cols: 2, spacing: 'xl' },
                     { maxWidth: 755, cols: 1, spacing: 'xl' },

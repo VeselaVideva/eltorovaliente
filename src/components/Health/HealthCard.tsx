@@ -14,7 +14,7 @@ export function HealthCard({ icon: Icon, color, title, description }: HealthCard
             <ThemeIcon variant="light" color={color} size={40} radius={40}>
                 <Icon size="1.3rem" stroke={1} />
             </ThemeIcon>
-            <Text mt="sm" mb={7}>
+            <Text mt="sm" mb={7} fw={500} lh={1.2}>
                 {title}
             </Text>
             <Text size="sm" color="dimmed" sx={{ lineHeight: 1.6 }}>

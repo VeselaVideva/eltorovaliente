@@ -47,7 +47,7 @@ export function Pedigree() {
                     <Skeleton className={classes.skeleton} height={getSubHeight(2, px(theme.spacing.md))} radius="md"
                               animate={false}>
                         <Box className="pedigree-name m-1">
-                            <Text fz="md">Karballido Staffs Mambo Golden Legend</Text>
+                            <Text fz="md" fw={500} lh={1.2} mb={6}>Karballido Staffs Mambo Golden Legend</Text>
                             <Text fz="sm">LOE 2223368</Text>
                             <Text fz="sm">NCL-A Clear</Text>
                         </Box>
@@ -55,7 +55,7 @@ export function Pedigree() {
                     <Skeleton className={classes.skeleton} height={getSubHeight(2, px(theme.spacing.md))} radius="md"
                               animate={false}>
                         <Box className="pedigree-name f-1">
-                            <Text fz="md">Karballido Staffs Queen Of Hearts</Text>
+                            <Text fz="md" fw={500} lh={1.2} mb={6}>Karballido Staffs Queen Of Hearts</Text>
                             <Text fz="sm">LOE 2444673</Text>
                             <Text fz="sm">NCL-A Carrier</Text>
                         </Box>
@@ -65,28 +65,28 @@ export function Pedigree() {
                     <Skeleton className={classes.skeleton} height={getSubHeight(4, px(theme.spacing.md))} radius="md"
                               animate={false}>
                         <Box className="pedigree-name m-1-m-2">
-                            <Text fz="md">Karballido Staffs Pomerland Secret Weapon</Text>
+                            <Text fz="md" fw={500} lh={1.2} mb={6}>Karballido Staffs Pomerland Secret Weapon</Text>
                             <Text fz="sm">LOE 2152001</Text>
                         </Box>
                     </Skeleton>
                     <Skeleton className={classes.skeleton} height={getSubHeight(4, px(theme.spacing.md))} radius="md"
                               animate={false}>
                         <Box className="pedigree-name m-1-f-2">
-                            <Text fz="md">Citadela King Of Ring's</Text>
+                            <Text fz="md" fw={500} lh={1.2} mb={6}>Citadela King Of Ring's</Text>
                             <Text fz="sm">LOE 2023370 - JR 7000592 AST</Text>
                         </Box>
                     </Skeleton>
                     <Skeleton className={classes.skeleton} height={getSubHeight(4, px(theme.spacing.md))} radius="md"
                               animate={false}>
                         <Box className="pedigree-name f-1-m-2">
-                            <Text fz="md">Alpine's LBK Living On The Road</Text>
+                            <Text fz="md" fw={500} lh={1.2} mb={6}>Alpine's LBK Living On The Road</Text>
                             <Text fz="sm">AKC RN 29302101</Text>
                         </Box>
                     </Skeleton>
                     <Skeleton className={classes.skeleton} height={getSubHeight(4, px(theme.spacing.md))} radius="md"
                               animate={false}>
                         <Box className="pedigree-name f-1-f-2">
-                            <Text fz="md">Karballido Staffs Electra Natchios</Text>
+                            <Text fz="md" fw={500} lh={1.2} mb={6}>Karballido Staffs Electra Natchios</Text>
                             <Text fz="sm">LOE 2029126</Text>
                         </Box>
                     </Skeleton>
@@ -95,56 +95,56 @@ export function Pedigree() {
                     <Skeleton className={classes.skeleton} height={getSubHeight(8, px(theme.spacing.md))} radius="md"
                               animate={false}>
                         <Box className="pedigree-name m-1-m-2-m-3">
-                            <Text fz="md">Cuda's Playboy</Text>
+                            <Text fz="md" fw={500} lh={1.2} mb={6}>Cuda's Playboy</Text>
                             <Text fz="sm">ROI 09/51046</Text>
                         </Box>
                     </Skeleton>
                     <Skeleton className={classes.skeleton} height={getSubHeight(8, px(theme.spacing.md))} radius="md"
                               animate={false}>
                         <Box className="pedigree-name m-1-m-2-f-3">
-                            <Text fz="md">Or Starlight "Red Mist" King Of Ring's</Text>
+                            <Text fz="md" fw={500} lh={1.2} mb={6}>Or Starlight "Red Mist" King Of Ring's</Text>
                             <Text fz="sm">LOE 2064023 - JR 702392 AST</Text>
                         </Box>
                     </Skeleton>
                     <Skeleton className={classes.skeleton} height={getSubHeight(8, px(theme.spacing.md))} radius="md"
                               animate={false}>
                         <Box className="pedigree-name m-1-f-2-m-3">
-                            <Text fz="md">Don King Of Ring's</Text>
+                            <Text fz="md" fw={500} lh={1.2} mb={6}>Don King Of Ring's</Text>
                             <Text fz="sm">JR 76275 AST</Text>
                         </Box>
                     </Skeleton>
                     <Skeleton className={classes.skeleton} height={getSubHeight(8, px(theme.spacing.md))} radius="md"
                               animate={false}>
                         <Box className="pedigree-name m-1-f-2-f-3">
-                            <Text fz="md">Francesca Of Eagle Blend</Text>
+                            <Text fz="md" fw={500} lh={1.2} mb={6}>Francesca Of Eagle Blend</Text>
                             <Text fz="sm">JR 75920 AST</Text>
                         </Box>
                     </Skeleton>
                     <Skeleton className={classes.skeleton} height={getSubHeight(8, px(theme.spacing.md))} radius="md"
                               animate={false}>
                         <Box className="pedigree-name f-1-m-2-m-3">
-                            <Text fz="md">Sbigstaff Enuf Is Enuf For LBK</Text>
+                            <Text fz="md" fw={500} lh={1.2} mb={6}>Sbigstaff Enuf Is Enuf For LBK</Text>
                             <Text fz="sm">AKC RN 20061701</Text>
                         </Box>
                     </Skeleton>
                     <Skeleton className={classes.skeleton} height={getSubHeight(8, px(theme.spacing.md))} radius="md"
                               animate={false}>
                         <Box className="pedigree-name f-1-m-2-f-3">
-                            <Text fz="md">Alpine's Isn't She Lovely</Text>
+                            <Text fz="md" fw={500} lh={1.2} mb={6}>Alpine's Isn't She Lovely</Text>
                             <Text fz="sm">AKC RN 20431405</Text>
                         </Box>
                     </Skeleton>
                     <Skeleton className={classes.skeleton} height={getSubHeight(8, px(theme.spacing.md))} radius="md"
                               animate={false}>
                         <Box className="pedigree-name f-1-f-2-m-3">
-                            <Text fz="md">Builder's Best Heavenly Rider Long Step</Text>
+                            <Text fz="md" fw={500} lh={1.2} mb={6}>Builder's Best Heavenly Rider Long Step</Text>
                             <Text fz="sm">JR 77655 AST</Text>
                         </Box>
                     </Skeleton>
                     <Skeleton className={classes.skeleton} height={getSubHeight(8, px(theme.spacing.md))} radius="md"
                               animate={false}>
                         <Box className="pedigree-name f-1-f-2-f-3">
-                            <Text fz="md">Karballido Staffs Quite Easy</Text>
+                            <Text fz="md" fw={500} lh={1.2} mb={6}>Karballido Staffs Quite Easy</Text>
                             <Text fz="sm">LOE 1914498</Text>
                         </Box>
                     </Skeleton>
