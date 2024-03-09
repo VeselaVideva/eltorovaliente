@@ -33,9 +33,15 @@ export const titlesData = [
     },
     {
         flag: '/images/macedonia.png',
-        title: 'CHAMPION MACEDONIA',
+        title: 'CHAMPION NORTH MACEDONIA',
         number: '838-OH/2023 / 04.09.2023',
         finished: true,
+    },
+    {
+        flag: '/images/bulgaria.png',
+        title: 'CHAMPION BULGARIA',
+        number: 'CAC 0 of 1 - Not finished',
+        finished: false,
     },
     {
         flag: '/images/greece.png',
