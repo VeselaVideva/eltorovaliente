@@ -341,19 +341,26 @@ export function Shows() {
                                     <Text color="dimmed" size="md">Excellent 2, R.CAC, R.CACIB</Text>
                                     <Text color="dimmed" size="md">Judge: Stefan Mitrevski (North Macedonia)</Text>
                                 </Timeline.Item>
+                                <Timeline.Item
+                                    bullet={<ThemeIcon variant="light" size={40} radius={40}><IconTrophy size="1.3rem" stroke={1}/></ThemeIcon>}
+                                    title="CACIB - Plovdiv, BULGARIA">
+                                    <Text color="dimmed" size="md">06.04.2024 - Champion class</Text>
+                                    <Text color="dimmed" size="md">Excellent 1, CAC, R.CACIB</Text>
+                                    <Text color="dimmed" size="md">Judge: Petru Muntean (Romania)</Text>
+                                </Timeline.Item>
+                                <Timeline.Item
+                                    bullet={<ThemeIcon variant="light" size={40} radius={40}><IconTrophy size="1.3rem" stroke={1}/></ThemeIcon>}
+                                    title="CACIB - Plovdiv, BULGARIA">
+                                    <Text color="dimmed" size="md">07.04.2024 - Champion class</Text>
+                                    <Text color="dimmed" size="md">Excellent 1, CAC, R.CACIB</Text>
+                                    <Text color="dimmed" size="md">Judge: Rui Oliveira (Portugal)</Text>
+                                </Timeline.Item>
                                 {/*<Timeline.Item*/}
                                 {/*    bullet={<ThemeIcon variant="light" size={40} radius={40}><IconTrophy size="1.3rem" stroke={1}/></ThemeIcon>}*/}
-                                {/*    title="CACIB - Plovdiv, BULGARIA">*/}
-                                {/*    <Text color="dimmed" size="md">06.04.2024 - Champion class</Text>*/}
+                                {/*    title="Royal Cup AST Speciality - Kraljevo, SERBIA">*/}
+                                {/*    <Text color="dimmed" size="md">20.04.2024 - Champion class</Text>*/}
                                 {/*    <Text color="dimmed" size="md">...</Text>*/}
-                                {/*    <Text color="dimmed" size="md">Judge: Petru Muntean (Romania)</Text>*/}
-                                {/*</Timeline.Item>*/}
-                                {/*<Timeline.Item*/}
-                                {/*    bullet={<ThemeIcon variant="light" size={40} radius={40}><IconTrophy size="1.3rem" stroke={1}/></ThemeIcon>}*/}
-                                {/*    title="CACIB - Plovdiv, BULGARIA">*/}
-                                {/*    <Text color="dimmed" size="md">07.04.2024 - Champion class</Text>*/}
-                                {/*    <Text color="dimmed" size="md">...</Text>*/}
-                                {/*    <Text color="dimmed" size="md">Judge: Rui Oliveira (Portugal)</Text>*/}
+                                {/*    <Text color="dimmed" size="md">Judge: Luisma Benitez (Spain)</Text>*/}
                                 {/*</Timeline.Item>*/}
                                 {/*<Timeline.Item*/}
                                 {/*    bullet={<ThemeIcon variant="light" size={40} radius={40}><IconTrophy size="1.3rem" stroke={1}/></ThemeIcon>}*/}
