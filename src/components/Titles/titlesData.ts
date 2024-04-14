@@ -40,8 +40,8 @@ export const titlesData = [
     {
         flag: '/images/bulgaria.png',
         title: 'CHAMPION BULGARIA',
-        number: 'CAC 0 of 1 - Not finished',
-        finished: false,
+        number: '06.04.2024',
+        finished: true,
     },
     {
         flag: '/images/greece.png',
