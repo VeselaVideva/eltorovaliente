@@ -355,13 +355,13 @@ export function Shows() {
                                     <Text color="dimmed" size="md">Excellent 1, CAC, R.CACIB</Text>
                                     <Text color="dimmed" size="md">Judge: Rui Oliveira (Portugal)</Text>
                                 </Timeline.Item>
-                                {/*<Timeline.Item*/}
-                                {/*    bullet={<ThemeIcon variant="light" size={40} radius={40}><IconTrophy size="1.3rem" stroke={1}/></ThemeIcon>}*/}
-                                {/*    title="Royal Cup AST Speciality - Kraljevo, SERBIA">*/}
-                                {/*    <Text color="dimmed" size="md">20.04.2024 - Champion class</Text>*/}
-                                {/*    <Text color="dimmed" size="md">...</Text>*/}
-                                {/*    <Text color="dimmed" size="md">Judge: Luisma Benitez (Spain)</Text>*/}
-                                {/*</Timeline.Item>*/}
+                                <Timeline.Item
+                                    bullet={<ThemeIcon variant="light" size={40} radius={40}><IconTrophy size="1.3rem" stroke={1}/></ThemeIcon>}
+                                    title="Royal Cup AST Speciality - Kraljevo, SERBIA">
+                                    <Text color="dimmed" size="md">20.04.2024 - Champion class</Text>
+                                    <Text color="dimmed" size="md">Excellent 2, R.CACS</Text>
+                                    <Text color="dimmed" size="md">Judge: Luisma Benitez (Spain)</Text>
+                                </Timeline.Item>
                                 {/*<Timeline.Item*/}
                                 {/*    bullet={<ThemeIcon variant="light" size={40} radius={40}><IconTrophy size="1.3rem" stroke={1}/></ThemeIcon>}*/}
                                 {/*    title="WORLD DOG SHOW 2024 – Zagreb, CROATIA">*/}
