@@ -362,37 +362,37 @@ export function Shows() {
                                     <Text color="dimmed" size="md">Excellent 2, R.CACS</Text>
                                     <Text color="dimmed" size="md">Judge: Luisma Benitez (Spain)</Text>
                                 </Timeline.Item>
-                                {/*<Timeline.Item*/}
-                                {/*    bullet={<ThemeIcon variant="light" size={40} radius={40}><IconTrophy size="1.3rem" stroke={1}/></ThemeIcon>}*/}
-                                {/*    title="WORLD DOG SHOW 2024 – Zagreb, CROATIA">*/}
-                                {/*    <Text color="dimmed" size="md">26.04.2024 - Open class</Text>*/}
-                                {/*    <Text color="dimmed" size="md">...</Text>*/}
-                                {/*    <Text color="dimmed" size="md">Judge: Boris Chapiro (France)</Text>*/}
-                                {/*</Timeline.Item>*/}
-                                {/*<Timeline.Item*/}
-                                {/*    bullet={<ThemeIcon variant="light" size={40} radius={40}><IconTrophy size="1.3rem" stroke={1}/></ThemeIcon>}*/}
-                                {/*    title="CAC Croatia Winner – Zagreb, CROATIA">*/}
-                                {/*    <Text color="dimmed" size="md">26.04.2024 - Open class</Text>*/}
-                                {/*    <Text color="dimmed" size="md">...</Text>*/}
-                                {/*    <Text color="dimmed" size="md">Judge: Péter Harsányi (Hungary)</Text>*/}
-                                {/*</Timeline.Item>*/}
-                                {/*<Timeline.Item*/}
-                                {/*    bullet={<ThemeIcon variant="light" size={40} radius={40}><IconTrophy size="1.3rem" stroke={1}/></ThemeIcon>}*/}
-                                {/*    title="Amstaff Major #16 – Voghera, ITALY">*/}
-                                {/*    <Text color="dimmed" size="md">18.05.2024 - Open class</Text>*/}
-                                {/*    <Text color="dimmed" size="md">...</Text>*/}
-                                {/*    <Text color="dimmed" size="md">Judge: Igor Miletic (USA)</Text>*/}
-                                {/*</Timeline.Item>*/}
-                                {/*<Timeline.Item*/}
-                                {/*    bullet={<ThemeIcon variant="light" size={40} radius={40}><IconTrophy size="1.3rem" stroke={1}/></ThemeIcon>}*/}
-                                {/*    title="Mediterranean Cup – Voghera, ITALY">*/}
-                                {/*    <Text color="dimmed" size="md">19.05.2024 - Open class</Text>*/}
-                                {/*    <Text color="dimmed" size="md">...</Text>*/}
-                                {/*    <Text color="dimmed" size="md">Judge: Peter Lauber (CH)</Text>*/}
-                                {/*</Timeline.Item>*/}
                             </Timeline>
-                            {/*<Timeline active={-1} bulletSize={40} lineWidth={1} align="left">*/}
-                            {/*</Timeline>*/}
+                            <Timeline active={-1} bulletSize={40} lineWidth={1} align="left">
+                                <Timeline.Item
+                                    bullet={<ThemeIcon variant="light" size={40} radius={40}><IconTrophy size="1.3rem" stroke={1}/></ThemeIcon>}
+                                    title="WORLD DOG SHOW 2024 – Zagreb, CROATIA">
+                                    <Text color="dimmed" size="md">26.04.2024 - Open class</Text>
+                                    <Text color="dimmed" size="md">Excellent 3 / 11 entries</Text>
+                                    <Text color="dimmed" size="md">Judge: Boris Chapiro (France)</Text>
+                                </Timeline.Item>
+                                <Timeline.Item
+                                    bullet={<ThemeIcon variant="light" size={40} radius={40}><IconTrophy size="1.3rem" stroke={1}/></ThemeIcon>}
+                                    title="CAC Croatia Winner – Zagreb, CROATIA">
+                                    <Text color="dimmed" size="md">26.04.2024 - Open class</Text>
+                                    <Text color="dimmed" size="md">Excellent 2, R.CAC</Text>
+                                    <Text color="dimmed" size="md">Judge: Péter Harsányi (Hungary)</Text>
+                                </Timeline.Item>
+                                <Timeline.Item
+                                    bullet={<ThemeIcon variant="light" size={40} radius={40}><IconTrophy size="1.3rem" stroke={1}/></ThemeIcon>}
+                                    title="Amstaff Major #16 – Voghera, ITALY">
+                                    <Text color="dimmed" size="md">18.05.2024 - Open class</Text>
+                                    <Text color="dimmed" size="md">Excellent 4 / 12 entries</Text>
+                                    <Text color="dimmed" size="md">Judge: Igor Miletic (USA)</Text>
+                                </Timeline.Item>
+                                <Timeline.Item
+                                    bullet={<ThemeIcon variant="light" size={40} radius={40}><IconTrophy size="1.3rem" stroke={1}/></ThemeIcon>}
+                                    title="Mediterranean Cup – Voghera, ITALY">
+                                    <Text color="dimmed" size="md">19.05.2024 - Open class</Text>
+                                    <Text color="dimmed" size="md">Excellent 3 / 8 entries</Text>
+                                    <Text color="dimmed" size="md">Judge: Peter Lauber (CH)</Text>
+                                </Timeline.Item>
+                            </Timeline>
                             {/*<Timeline active={-1} bulletSize={40} lineWidth={1} align="left">*/}
                             {/*</Timeline>*/}
                         </SimpleGrid>
