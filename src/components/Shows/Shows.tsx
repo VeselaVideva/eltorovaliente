@@ -393,8 +393,36 @@ export function Shows() {
                                     <Text color="dimmed" size="md">Judge: Peter Lauber (CH)</Text>
                                 </Timeline.Item>
                             </Timeline>
-                            {/*<Timeline active={-1} bulletSize={40} lineWidth={1} align="left">*/}
-                            {/*</Timeline>*/}
+                            <Timeline active={-1} bulletSize={40} lineWidth={1} align="left">
+                                <Timeline.Item
+                                    bullet={<ThemeIcon variant="light" size={40} radius={40}><IconTrophy size="1.3rem" stroke={1}/></ThemeIcon>}
+                                    title="CACIB - Elin Pelin, BULGARIA">
+                                    <Text color="dimmed" size="md">01.06.2024 - Champion class</Text>
+                                    <Text color="dimmed" size="md">Excellent 1, CAC, CACIB, BOS</Text>
+                                    <Text color="dimmed" size="md">Judge: Dragan Janjic (Serbia)</Text>
+                                </Timeline.Item>
+                                <Timeline.Item
+                                    bullet={<ThemeIcon variant="light" size={40} radius={40}><IconTrophy size="1.3rem" stroke={1}/></ThemeIcon>}
+                                    title="CACIB - Elin Pelin, BULGARIA">
+                                    <Text color="dimmed" size="md">02.06.2024 - Champion class</Text>
+                                    <Text color="dimmed" size="md">Excellent 1, CAC, CACIB, BOB, R.BOG</Text>
+                                    <Text color="dimmed" size="md">Judge: Dragan Krstic (Serbia)</Text>
+                                </Timeline.Item>
+                                <Timeline.Item
+                                    bullet={<ThemeIcon variant="light" size={40} radius={40}><IconTrophy size="1.3rem" stroke={1}/></ThemeIcon>}
+                                    title="CACIB - Katerini, GREECE">
+                                    <Text color="dimmed" size="md">08.06.2024 - Champion class</Text>
+                                    <Text color="dimmed" size="md">Excellent 1, CAC, CACIB, BOS</Text>
+                                    <Text color="dimmed" size="md">Judge: Maria-Luise Doppelreiter (Austria)</Text>
+                                </Timeline.Item>
+                                <Timeline.Item
+                                    bullet={<ThemeIcon variant="light" size={40} radius={40}><IconTrophy size="1.3rem" stroke={1}/></ThemeIcon>}
+                                    title="CAC - Katerini, GREECE">
+                                    <Text color="dimmed" size="md">08.06.2024 - Champion class</Text>
+                                    <Text color="dimmed" size="md">Excellent 1, CAC, BOB</Text>
+                                    <Text color="dimmed" size="md">Judge: Jasna Matejcic (Croatia)</Text>
+                                </Timeline.Item>
+                            </Timeline>
                         </SimpleGrid>
                     </Accordion.Panel>
                 </Accordion.Item>

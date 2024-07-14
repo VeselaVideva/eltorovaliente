@@ -46,13 +46,13 @@ export const titlesData = [
     {
         flag: '/images/greece.png',
         title: 'CHAMPION GREECE',
-        number: 'CAC 2 of 3 - Not finished',
-        finished: false,
+        number: 'Waiting for certificate',
+        finished: true,
     },
     {
         flag: '/images/europe.png',
         title: 'INTERNATIONAL CHAMPION',
-        number: 'CACIB 3 of 4 - Not finished',
-        finished: false,
+        number: 'Waiting for certificate',
+        finished: true,
     },
 ];
